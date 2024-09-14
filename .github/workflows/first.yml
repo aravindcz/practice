@@ -1,0 +1,14 @@
+name: First Workflow
+
+on: push
+
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome message
+        run: echo "Welcome to first practice"  
+
+      - name: List
+        run: ls
+        
